@@ -10,7 +10,7 @@ on:
 
 jobs:
   deploy:
-    name: Deploy to Server
+    name: Deploy to Production
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:

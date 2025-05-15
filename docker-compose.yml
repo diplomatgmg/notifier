@@ -1,0 +1,11 @@
+name: ${ENV_PROJECT_NAME}
+
+services:
+  notifier:
+    image: lorcas/docker-telegram-notifier
+    container_name: ${ENV_PROJECT_NAME}
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro

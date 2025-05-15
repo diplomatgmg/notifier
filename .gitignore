@@ -1,0 +1,10 @@
+# Exclude all
+**
+
+# Include
+!/.env.example
+!/docker-compose.yml
+!/.gitignore
+!/.github
+!/.github/**
+!/README.md
